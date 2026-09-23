@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: black;
+            width: 18%;
+            margin: auto;
+            border-radius: 5px;
+            padding: 10px 0 10px 10px;
+            box-shadow: 2px 2px 2px rgb(109, 109, 109);
+            align-items: center;
+        }
+        .input{
+            width: 95%;
+            padding: 5px;
+            outline: none;
+            border: 0;
+            background-color:aliceblue;
+            border-radius: 5px;
+            text-align: right;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .buttons{
+            display: flex;
+            padding: 10px 0 10px 10px;
+            /* padding: 20px; */
+            flex-wrap: wrap;
+            gap: 10px;
+            cursor: pointer;
+        }
+        .btn{
+            height: 40px;
+            width: 40px;
+            border-radius: 20%;
+            border: 0;
+            background-color: rgb(250, 250, 250);
+            color: rgb(0, 0, 0);
+            
+        }
+        .ope{
+            background-color:rgb(247, 113, 35);
+        }
+        .cc{
+           background-color: rgb(240, 16, 54);
+           color: white;
+        }
+        .mm{
+           background-color: rgb(7, 180, 1);
+           color: white;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            box-shadow: 5px 5px 3px red;
+        }
+        .container{
+            text-align: center;
+            padding: 5px;
+        }
+        .base{
+            color: white;
+            font-size: small;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+            <i class="fa fa-calculator" style="color: white;">Calculator</i>
+        <div class="input">
+            <input type="text" placeholder="0" class="input">
+        </div>
+        <div class="buttons">
+            <button class="btn cc">c</button>
+            <button class="btn x"><i class="fa fa-delete-left" style="color: blueviolet;"></i></button>
+            <button class="btn ope">%</button>
+            <button class="btn ope">/</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn ope">*</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn ope">-</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn ope">+</button>
+            <button class="btn zero">0</button>
+            <button class="btn">.</button>
+            <button class="btn mm">=</button>
+            <div>
+                <i class="base">Basic Calculator UI</i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
